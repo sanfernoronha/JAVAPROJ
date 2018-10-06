@@ -9,10 +9,11 @@ package footballmanager;
  *
  * @author Sanfer
  */
-public abstract class SportsClub {
+public abstract class SportsClub  {
     private String name;
     private String location;
     private String statistics;
+   
     
     @Override
     public boolean equals(Object o){
@@ -29,6 +30,8 @@ public abstract class SportsClub {
         return statistics;
     
     }
+    
+    
     public void setLocation(String s)
     {
         this.location=s;
@@ -41,4 +44,5 @@ public abstract class SportsClub {
     {
         this.statistics=s;
     }
+    
 }

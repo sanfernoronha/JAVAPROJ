@@ -5,6 +5,8 @@
  */
 package footballmanager;
 
+import java.io.IOException;
+
 /**
  *
  * @author Sanfer
@@ -14,7 +16,7 @@ public class FootballManager {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         PremierLeagueManager plm=new PremierLeagueManager(10);
     }
     
